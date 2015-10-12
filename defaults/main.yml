@@ -1,0 +1,15 @@
+---
+# defaults file for apache-tika
+
+# http://archive.apache.org/dist/tika/tika-app-1.8.jar
+
+tika_version: '1.8'
+#checksum is new in 2.0 - so we have to use sha
+#tika_version_checksum: 'md5:785aa2ba03a5ad205cb52765f69f66f3'
+tika_version_checksum: 'b2190c267433e62c08560576ab7197e506bfdc11'
+tika_mirror: 'http://archive.apache.org/dist/tika'
+
+tika_owner: "{{ main_user }}"
+tika_group: "{{ first5user_admin_group }}"
+
+tika_home: '/var/www/tika'

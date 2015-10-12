@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  author: George Boobyer
+  description: Implment the Apache Tika library
+  company: Blue-Bag / Miggle
+
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.2
+  platforms:
+    - name: EL
+      versions:
+        - 6
+
+  #
+  # Below are all categories currently available. Just as with
+  # the platforms above, uncomment those that apply to your role.
+  #
+  categories:
+   - web
+dependencies: []
+
+

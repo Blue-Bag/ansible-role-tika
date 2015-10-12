@@ -1,0 +1,24 @@
+---
+# tasks file for apache-tika
+
+
+- name: Tika | Create a folder to house the Apache Tika jar
+  file:
+     path: "{{ tika_home }}"
+     state: directory
+     owner: "{{ tika_owner }}"
+     group: "{{ tika_group }}"
+     mode: 0755
+     recurse: yes
+  sudo: true
+  tags: [tika]
+
+- name: Tika | Download the Apache Tika tar
+  get_url:
+    url: "{{ tika_mirror }}/tika-app-{{ tika_version }}.jar"
+    dest: "{{ tika_home }}"
+    mode: 0644
+    owner: "{{ tika_owner }}"
+    group: "{{ tika_group }}"
+  tags: [tika]
+
