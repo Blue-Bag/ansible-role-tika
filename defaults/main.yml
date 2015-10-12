@@ -9,7 +9,8 @@ tika_version: '1.8'
 tika_version_checksum: 'b2190c267433e62c08560576ab7197e506bfdc11'
 tika_mirror: 'http://archive.apache.org/dist/tika'
 
-tika_owner: "{{ main_user }}"
-tika_group: "{{ first5user_admin_group }}"
+# override these to your user/groups
+tika_owner: "root"
+tika_group: "users"
 
 tika_home: '/var/www/tika'
