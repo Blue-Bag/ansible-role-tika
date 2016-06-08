@@ -10,7 +10,7 @@
      group: "{{ tika_group }}"
      mode: 0755
      recurse: yes
-  sudo: true
+  become: true
   tags: [tika]
 
 - name: Tika | Download the Apache Tika tar
