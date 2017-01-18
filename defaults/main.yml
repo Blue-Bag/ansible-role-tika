@@ -6,7 +6,7 @@
 tika_version: '1.8'
 #checksum is new in 2.0 - so we have to use sha
 #tika_version_checksum: 'md5:785aa2ba03a5ad205cb52765f69f66f3'
-tika_version_checksum: 'b2190c267433e62c08560576ab7197e506bfdc11'
+tika_version_checksum: 'sha256:9346cf68c00a46b2e6189794d5fb2e127bf9b60ef6d216edf06e01917f7deaef'
 tika_mirror: 'http://archive.apache.org/dist/tika'
 
 # override these to your user/groups
