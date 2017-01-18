@@ -1,7 +1,9 @@
 Role Name
 =========
 
-A role to downlaod the tika jar file
+[![Build Status](https://travis-ci.org/Blue-Bag/ansible-role-tika.svg?branch=master)](https://travis-ci.org/Blue-Bag/ansible-role-tika)
+
+A role to download the tika jar file
 
 Requirements
 ------------
