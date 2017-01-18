@@ -1,6 +1,8 @@
 ---
 - hosts: all
   remote_user: root
+  tika_owner: 'root'
+  tika_group: 'root'
 
   roles:
     - role_under_test
