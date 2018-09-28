@@ -13,6 +13,12 @@
   become: true
   tags: [tika]
 
+- name: debug checksuum
+  debug:
+    msg: "{{tika_version_checksum}}"
+    verbosity: 3
+  tags: [tika]
+
 - name: Tika | Download the Apache Tika tar
   get_url:
     url: "{{ tika_mirror }}/tika-app-{{ tika_version }}.jar"

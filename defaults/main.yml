@@ -3,10 +3,15 @@
 
 # http://archive.apache.org/dist/tika/tika-app-1.8.jar
 
-tika_version: '1.8'
+tika_version: '1.19'
+tika_version_checksum: 'sha512:668cd4770ce98fca79c9af63bed718011f6e229ed8834ef5ead81536aad476fc1e3d99a07bee213acb36e102347d3a91dad9dfabd92c20017ea5620fd8b824db'
+
+
 #checksum is new in 2.0 - so we have to use sha
 #tika_version_checksum: 'md5:785aa2ba03a5ad205cb52765f69f66f3'
-tika_version_checksum: 'sha256:9346cf68c00a46b2e6189794d5fb2e127bf9b60ef6d216edf06e01917f7deaef'
+#tika_version_checksum: 'sha256:9346cf68c00a46b2e6189794d5fb2e127bf9b60ef6d216edf06e01917f7deaef'
+#tika_version_checksum: 'sha256:eed2e86c61ac74091d4a3a5c18091a6064bd6618ed5be99801eeac5613f28b28'
+
 tika_mirror: 'http://archive.apache.org/dist/tika'
 
 # override these to your user/groups
